@@ -1,0 +1,23 @@
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0078ff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.navbar-text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Ensure content doesn't get hidden behind the navbar */
+body {
+    padding-top: 60px;
+}
